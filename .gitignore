@@ -1,0 +1,4 @@
+src/__pycache__
+priv/*.json
+cloudflared-linux-amd64
+notes.md

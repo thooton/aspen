@@ -1,0 +1,31 @@
+{
+    "microphone": {
+        "sample_rate": 16000
+    },
+    "segmenter": {
+        "model_path": "./priv/silero_vad.jit"
+    },
+    "transcriber": {
+        "api_key": "",
+        "model": "distil-whisper-large-v3-en",
+        "language": "en"
+    },
+    "responder": {
+        "system_message": "You are a helpful assistant named Aspen. Respond succinctly and concisely - 1-2 sentences maximum. The user is speaking, not typing, so expect transcription errors.",
+        "model": "claude-3-5-sonnet-20241022",
+        "max_tokens": 1024,
+        "api_key": ""
+    },
+    "synthesizer": {
+        "credentials_path": "./priv/[your file].json",
+        "voice_language_code": "en-GB",
+        "voice_name": "en-GB-Chirp-HD-D",
+        "voice_gender": "male",
+        "sample_rate": 44100
+    },
+    "general": {
+        "initial_greeting": "Hello, how are you?",
+        "tw_host": "0.0.0.0",
+        "tw_port": 41903
+    }
+}

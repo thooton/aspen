@@ -1,0 +1,11 @@
+anthropic>=0.46.0
+google-cloud-texttospeech>=2.25.0
+google-auth>=2.27.0
+groq>=0.18.0
+numpy>=1.17.0
+sounddevice>=0.5.1
+torch>=2
+twilio>=9.4.6
+websockets>=13.0
+pydantic>=2.10.6
+g711>=1.6.5
