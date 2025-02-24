@@ -20,7 +20,7 @@ Aspen is your personal voice assistant, ready to chat in real time! Call its ded
 2. Sign up for [Groq](https://console.groq.com/), then put your API key in the config under `transcriber -> api_key`.
 3. Sign up for [Anthropic](https://console.anthropic.com/), and add some credits. Put your API key in the config under `responder -> api_key`.
 4. Sign up for the [Google Cloud Text-to-Speech API](https://sonaar.io/docs/how-to-get-google-cloud-text-to-speech-api-key/). Download your service credentials as a JSON file and put them in `priv`, then update the path in `synthesizer -> credentials_path`.
-5. (Optional) Sign up for the [Twilio free trial](https://console.twilio.com/), if you want to be able to call your assistant via phone number.
+5. (Optional) Sign up for the [Twilio free trial](https://console.twilio.com/), if you want to be able to call your assistant via phone number. Go through the setup process and then "purchase" a phone number with trial credits from Phone Numbers -> Buy a Number.
 
 ## Usage
 ### Local Usage
