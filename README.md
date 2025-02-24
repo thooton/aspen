@@ -33,7 +33,6 @@ If all is well, Aspen will greet you with the message configured in your setting
 
 ### Twilio Phone Integration
 To enable phone calls with Aspen:
-
 1. Start the Twilio server:
    ```sh
    python3 src/main_twilio.py

@@ -12,7 +12,7 @@
     },
     "responder": {
         "system_message": "You are a helpful assistant named Aspen. Respond succinctly and concisely - 1-2 sentences maximum. The user is speaking, not typing, so expect transcription errors.",
-        "model": "claude-3-5-sonnet-20241022",
+        "model": "claude-3-7-sonnet-20250219",
         "max_tokens": 1024,
         "api_key": ""
     },
